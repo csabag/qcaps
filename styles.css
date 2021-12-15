@@ -238,6 +238,7 @@ body {
     box-sizing: content-box;
     background: url("./blue_background.png");
     background-attachment: fixed;
+    margin-bottom: 6em;
 }
 
 .robot_hands {
@@ -290,14 +291,88 @@ body {
     flex-direction: column;
     width: 100%;
     align-items: center;
+    margin-bottom: 7em;
 }
 
 .team_title {
     font-weight: bold;
     font-size: 1.8em;
+}
+
+.team_members{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.member_card {
+    margin: 2em;
+    border-radius: 0px 16px 16px 16px;
     border: 1px solid black;
 }
 
+.member_card > img {
+    height: 150px;
+    width: 220px;
+    border-radius: 0px 16px 0px 0px;
+    background-color:#0F87EF;
+}
+
+.first_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.member_linkedin {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.member_name {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.member_linkedin > a {
+    text-decoration: none;
+    background-color: #0F87EF;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    color: white;
+    font-weight: bold;
+}
+
+.second_row {
+    display: flex;
+    font-weight: 400;
+    color: #0F87EF;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
 .footer {
-    height: 200px;
+    display: flex;
+    align-content: center;
+    background-color: #161938;
+    height: 230px;
+}
+
+.footer > .logo_container {
+}
+
+.footer > .logo_container > .company_name {
+    color: white;
+}
+
+.footer_contact {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
 }
