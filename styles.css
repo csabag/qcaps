@@ -279,8 +279,25 @@ body {
     padding-bottom: 2em;
 }
 
-.section_team {
+.section_separator {
     display: flex;
     height: 200px;
     background: #FBFCFF;
+}
+
+.section_team {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.team_title {
+    font-weight: bold;
+    font-size: 1.8em;
+    border: 1px solid black;
+}
+
+.footer {
+    height: 200px;
 }
