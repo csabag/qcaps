@@ -81,8 +81,8 @@ body, html {
     position: relative;
     width: 100%;
     padding-bottom: 0px;
-    margin-bottom: 8em;
     padding-top: 8rem;
+    scroll-padding-top: 4em;
 }
 
 .intro_right {
@@ -132,6 +132,7 @@ body, html {
     align-content: center;
     align-items: center;
     justify-content: center;
+    padding-top: 8em;
 }
 
 .service_offerings_title {
@@ -252,7 +253,6 @@ body, html {
     box-sizing: content-box;
     background: url("./blue_background.png");
     background-attachment: fixed;
-    margin-bottom: 6em;
 }
 
 .robot_hands {
@@ -307,6 +307,7 @@ body, html {
     align-items: center;
     margin-bottom: 7em;
     overflow-x: hidden;
+    padding-top: 8em;
 }
 
 .team_title {
