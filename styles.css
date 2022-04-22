@@ -52,6 +52,10 @@ body, html {
     justify-content: space-between;
 }
 
+.menu_item {
+    cursor: pointer;
+}
+
 .menu > div{
     display: flex;
     flex-wrap: no-wrap;
